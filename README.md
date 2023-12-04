@@ -133,7 +133,7 @@ Before running the code, download and extract the corresponding datasets to the 
 
 ### DSRNSS Training
 
-Make sure to first download the trained UAWarpC model with the link provided above.
+Make sure to first download the trained UAWarpC model with the link provided [here](https://drive.google.com/drive/folders/1E-6shGVlVRn8DlgV5hCTOANdETOmzwsZ?usp=drive_link).
 Enter the path to the UAWarpC model for `model.init_args.alignment_head.init_args.pretrained` in the config file you intend to run (or save the model to `./pretrained_models/`).
 
 To train DSRNSS on DarkZurich (single GPU, with AMP) use the following command:
@@ -164,7 +164,7 @@ python tools/run.py predict --config configs/cityscapes_darkzurich/dsrnss_hrda.y
 ```
 To get test set scores for DarkZurich, predictions are evaluated on the respective evaluation server: [DarkZurich](https://codalab.lisn.upsaclay.fr/competitions/3783).
 
-We also provide pretrained models, which can be downloaded from the link above. To evaluate them, simply provide them as the argument `--ckpt_path`.
+We also provide pretrained models, which can be downloaded from the link [here](https://drive.google.com/drive/folders/1g5YQcEd1H-cZ_slpHTWKLk9RtKtUAHBj?usp=drive_link). To evaluate them, simply provide them as the argument `--ckpt_path`.
 
 ## Citation
 
