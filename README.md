@@ -164,7 +164,7 @@ python tools/run.py predict --config configs/cityscapes_darkzurich/dsrnss_hrda.y
 ```
 To get test set scores for DarkZurich, predictions are evaluated on the respective evaluation server: [DarkZurich](https://codalab.lisn.upsaclay.fr/competitions/3783).
 
-We also provide pretrained models, which can be downloaded from the link [here](https://drive.google.com/drive/folders/1g5YQcEd1H-cZ_slpHTWKLk9RtKtUAHBj?usp=drive_link). To evaluate them, simply provide them as the argument `--ckpt_path`.
+We also provide pretrained models, which can be downloaded from the link [here]([https://drive.google.com/drive/folders/1g5YQcEd1H-cZ_slpHTWKLk9RtKtUAHBj?usp=drive_link](https://github.com/Rorisis/DSRNSS_codes/releases/tag/ckpts)). To evaluate them, simply provide them as the argument `--ckpt_path`.
 
 ## Citation
 
